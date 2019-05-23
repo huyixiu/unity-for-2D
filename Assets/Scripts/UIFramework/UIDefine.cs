@@ -35,7 +35,8 @@ public class UIPrefabPath
 {
     public static Dictionary<UIPanelID, string> prefabPathDict = new Dictionary<UIPanelID, string>
     {
-        {UIPanelID.ID_LoginPanel,"Prefabs/LoginPanel"}
+        {UIPanelID.ID_LoginPanel,"Prefabs/LoginPanel"},
+        {UIPanelID.ID_RegisterPanel,"Prefabs/RegisterPanel"}
 //        {UIPanelID.ID_MainUIPanel,"Prefab/UIPrefabs/UIPanelPrefab/MainPanel"},
 //        {UIPanelID.ID_BagPanel,"Prefab/UIPrefabs/UIPanelPrefab/BagPanel"},
 //        {UIPanelID.ID_RolePanel,"Prefab/UIPrefabs/UIPanelPrefab/RolePanel"},

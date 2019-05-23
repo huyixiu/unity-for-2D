@@ -35,11 +35,22 @@ public class UILoginPanel : UIBasePanel{
         touristLogin = UIUtils.findChild(this.gameObject, "TouristLoginButton").GetComponent<Button>();
 
         //挂载事件
+        login.onClick.AddListener(OnLogin);
+        register.onClick.AddListener(OnRegister);
     }
 
     #region MyRegion
+    //登陆
+    private void OnLogin()
+    {
 
-    
+    }
+
+    //注册
+    private void OnRegister()
+    {
+        UIPanelManager.Instance.showUIPanel(UIPanelID.ID_RegisterPanel);
+    }
 
     #endregion
 }

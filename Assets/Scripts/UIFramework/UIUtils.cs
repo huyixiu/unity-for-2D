@@ -11,7 +11,7 @@ class UIUtils
     {
         child.SetParent(parent);
         //封装的原因
-        child.localPosition = Vector3.one;
+        child.localPosition = Vector3.zero;
         child.localScale = Vector3.one;
         child.localEulerAngles = Vector3.zero;
     }
