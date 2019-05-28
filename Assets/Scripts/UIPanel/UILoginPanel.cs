@@ -19,7 +19,7 @@ public class UILoginPanel : UIBasePanel{
         this.id = UIPanelID.ID_LoginPanel;
         this.beforeID = UIPanelID.ID_None;
         //UI的显示规则
-        IsAlwaysAbove = true;
+        IsAlwaysAbove = false;
         showMode = UIShowMode.M_HideAll;
 
         //查找UI对象
@@ -43,7 +43,8 @@ public class UILoginPanel : UIBasePanel{
     //登陆
     private void OnLogin()
     {
-
+        UIPanelManager.Instance.showUIPanel(UIPanelID.ID_MainUIPanel);
+        UIPanelManager.Instance.showUIPanel(UIPanelID.ID_NewPanel);
     }
 
     //注册

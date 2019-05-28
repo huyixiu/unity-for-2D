@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UINewPanel : UIBasePanel {
+public class UIMorePanel : UIBasePanel {
     public override void OnInit()
     {
         //UI的ID
-        this.id = UIPanelID.ID_NewPanel;
+        this.id = UIPanelID.ID_MorePanel;
         this.beforeID = UIPanelID.ID_None;
         //UI的显示规则
         IsAlwaysAbove = false;

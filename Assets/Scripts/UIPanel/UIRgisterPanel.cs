@@ -17,7 +17,7 @@ public class UIRgisterPanel : UIBasePanel {
         this.id = UIPanelID.ID_RegisterPanel;
         this.beforeID = UIPanelID.ID_LoginPanel;
         //UI的显示规则
-        IsAlwaysAbove = true;
+        IsAlwaysAbove = false;
         showMode = UIShowMode.M_HideAll;
 
         //查找UI对象

@@ -117,7 +117,7 @@ public class UIPanelManager : MonoSingleton<UIPanelManager>
         //1：判断是否是已显示的UI面板
         if (showedUIPanelDict.ContainsKey(id))//当前UI已经在显示列表中了，就直接返回
         {
-            HideUIPanel(id);
+            //HideUIPanel(id);
             return;
         }
 
