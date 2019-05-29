@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * 生涯以及菜单
+ */
 public class UICareerPanel : UIBasePanel {
 
     public override void OnInit()

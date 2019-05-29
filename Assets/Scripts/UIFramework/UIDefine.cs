@@ -14,7 +14,11 @@ public enum UIPanelID//所有UI的ID定义
     ID_NewPanel,        //创建游戏
     ID_MessagePanel,    //消息
     ID_MorePanel,       //更多
-    
+
+    //俱乐部下级菜单
+    ID_NewClubPanel,            //新建俱乐部
+    ID_EnterClubNamePanel,      //输入俱乐部名称
+    ID_EnterClubIntroducePanel, //输入俱乐部介绍
 
 }
 
@@ -36,7 +40,11 @@ public class UIPrefabPath
         {UIPanelID.ID_ClubPanel,"Prefabs/Panels/ClubPanel"},
         {UIPanelID.ID_NewPanel,"Prefabs/Panels/NewPanel"},
         {UIPanelID.ID_MessagePanel,"Prefabs/Panels/MessagePanel"},
-        {UIPanelID.ID_MorePanel,"Prefabs/Panels/MorePanel"}
+        {UIPanelID.ID_MorePanel,"Prefabs/Panels/MorePanel"},
+        //俱乐部下级菜单
+        {UIPanelID.ID_NewClubPanel,"Prefabs/Panels/Club/NewClubPanel"},
+        {UIPanelID.ID_EnterClubNamePanel,"Prefabs/Panels/Club/EnterClubNamePanel"},
+        {UIPanelID.ID_EnterClubIntroducePanel,"Prefabs/Panels/Club/EnterClubIntroducePanel"}
     };
 
     public static string getUIPrefabPath(UIPanelID id)

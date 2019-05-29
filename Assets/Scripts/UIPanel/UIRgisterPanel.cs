@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/**
+ * 注册界面
+ */
 public class UIRgisterPanel : UIBasePanel {
     private InputField email;//输入邮件
     private InputField password;//输入密码

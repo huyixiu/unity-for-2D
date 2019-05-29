@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ * 更多一级菜单
+ */
 public class UIMorePanel : UIBasePanel {
     public override void OnInit()
     {

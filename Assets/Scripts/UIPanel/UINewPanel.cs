@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ * 新建牌局一级菜单
+ */
 public class UINewPanel : UIBasePanel {
     public override void OnInit()
     {

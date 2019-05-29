@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Object = UnityEngine.Object;
-
+/**
+ * 一级主菜单
+ */
 public class UIMainPanel : UIBasePanel
 {
     private Button careerButton;    //生涯

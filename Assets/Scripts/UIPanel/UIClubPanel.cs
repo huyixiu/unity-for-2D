@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/**
+ * 俱乐部一级菜单
+ */
 public class UIClubPanel : UIBasePanel
 {
     //按钮

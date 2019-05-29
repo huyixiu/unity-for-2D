@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ * 消息一级菜单
+ */
 public class UIMessagePanel : UIBasePanel {
 
     public override void OnInit()
