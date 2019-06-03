@@ -65,13 +65,13 @@ public class UIClubPanel : UIBasePanel
     //新建俱乐部
     private void OnNewClub()
     {
-
+        UIPanelManager.Instance.showUIPanel(UIPanelID.ID_NewClubPanel);
     }
 
     //加入俱乐部
     private void OnJoinClub()
     {
-
+        UIPanelManager.Instance.showUIPanel(UIPanelID.ID_JoinClubPanel);
     }
     #endregion
 }
