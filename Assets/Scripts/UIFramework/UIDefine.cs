@@ -21,6 +21,8 @@ public enum UIPanelID//所有UI的ID定义
     ID_EnterClubIntroducePanel, //输入俱乐部介绍
     ID_JoinClubPanel,           //加入俱乐部
 
+    //NewPanel下级菜单
+    ID_EnterPasswordIntoTheOfficePanel,//输入密码入局
 }
 
 public enum UIShowMode
@@ -46,7 +48,10 @@ public class UIPrefabPath
         {UIPanelID.ID_NewClubPanel,"Prefabs/Panels/Club/NewClubPanel"},
         {UIPanelID.ID_EnterClubNamePanel,"Prefabs/Panels/Club/EnterClubNamePanel"},
         {UIPanelID.ID_EnterClubIntroducePanel,"Prefabs/Panels/Club/EnterClubIntroducePanel"},
-        {UIPanelID.ID_JoinClubPanel,"Prefabs/Panels/Club/JoinClubPanel"}
+        {UIPanelID.ID_JoinClubPanel,"Prefabs/Panels/Club/JoinClubPanel"},
+        //NewPanel下级菜单
+        {UIPanelID.ID_EnterPasswordIntoTheOfficePanel,"Prefabs/Panels/EnterPasswordIntoTheOfficePanel"}
+
     };
 
     public static string getUIPrefabPath(UIPanelID id)
